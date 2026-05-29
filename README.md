@@ -67,5 +67,35 @@ seaborn
 requests
 tqdm
 numpy
+```
+### `.gitignore`
+
+This file ensures that temporary files, caches, and potentially heavy downloaded model weights are not accidentally committed to your repository.
+
+```text
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environments
+venv/
+env/
+.env/
+
+# Data and Models
+*.csv
+*.pt
+*.bin
+*.safetensors
+/results/
+/logs/
+
+# IDE settings
+.vscode/
+.idea/
 
 ```
