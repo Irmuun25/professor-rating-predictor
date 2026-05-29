@@ -24,29 +24,37 @@ The dataset consists of 1,250 reviews collected dynamically using the PlanetTerp
 
 ## Key Results
 The fine-tuned model demonstrates strong sentiment detection capabilities, particularly on extreme ratings. 
-* **Overall Exact Accuracy**: 66%[cite: 2]
-* **Within ±1 Star Accuracy**: 86%[cite: 2]
-* **F1 Score**: 0.58[cite: 2]
-* **Recall Highs**: 94% recall on 5-star reviews and 88% recall on 1-star reviews[cite: 2].
+* **Overall Exact Accuracy**: 66%
+* **Within ±1 Star Accuracy**: 86%
+* **F1 Score**: 0.58
+* **Recall Highs**: 94% recall on 5-star reviews and 88% recall on 1-star reviews.
 
-The model rarely confuses extreme ratings but faces some challenges distinguishing subtle linguistic differences in mid-range (2-4 star) reviews, partially due to class imbalances in the source data[cite: 2].
+The model rarely confuses extreme ratings but faces some challenges distinguishing subtle linguistic differences in mid-range (2-4 star) reviews, partially due to class imbalances in the source data.
 
+```markdown
 ## Installation & Setup
 
 1. Clone the repository:
-```bash
+   ```bash
    git clone [https://github.com/yourusername/professor-rating-predictor.git](https://github.com/yourusername/professor-rating-predictor.git)
    cd professor-rating-predictor
 
+```
+
 2. Install the required dependencies:
-   pip install -r requirements.txt
+```bash
+pip install -r requirements.txt
+
+```
+
 
 3. Run the Jupyter Notebook to fetch the data, train the model, and view the evaluation matrices.
+
 ---
 
 ### `requirements.txt`
 
-This file lists all the dependencies required to run your setup and training blocks successfully[cite: 1]. 
+This file lists all the dependencies required to run your setup and training blocks successfully.
 
 ```text
 transformers>=4.0.0
@@ -59,3 +67,11 @@ seaborn
 requests
 tqdm
 numpy
+
+```
+
+```
+
+Just copy and paste this updated version into your file, and your sections will render perfectly!
+
+```
