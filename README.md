@@ -69,9 +69,3 @@ tqdm
 numpy
 
 ```
-
-```
-
-Just copy and paste this updated version into your file, and your sections will render perfectly!
-
-```
